@@ -11,6 +11,8 @@ function convertJsonIntoArray(jsonArray){
 	return resultArray;
 }
 
+
+
 function drawLanguagesPieChart(array){
 	google.charts.load("current", {packages:["corechart"]});
 	google.charts.setOnLoadCallback(drawChart);
